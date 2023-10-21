@@ -3,6 +3,13 @@
     height: 65px;
     /* background-color: rgb(212, 221, 224); */
     justify-content:space-between;
+
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 20;
 }
 
 .Left_Section{
@@ -61,11 +68,13 @@
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     max-width: 500px;
-    box-shadow: inset 1px 2px 2px rgba(223, 217, 217, .5);
+    /* box-shadow: inset 1px 2px 2px rgba(223, 217, 217, .5); */
+    width:0;      
 }
 
 .Search_bar::placeholder{
     padding-left: 20px;
+    font-size: 15px;
 }
 
 
@@ -95,7 +104,7 @@
     border: none;
     border-radius: 50px;
     margin-left: 10px;
-    background-color:  rgba(119, 117, 117, 0.139);
+    background-color:  rgba(119, 117, 117, 0.1);
 }
 
 .Voice_icon{
@@ -108,8 +117,11 @@
     width: 235px;
     background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+    
 }
 
 .Upload_Icon{
@@ -131,13 +143,29 @@
 
 
 .Bell_Icon{
-  height: 40%;
+  height: 28px;
+}
+
+.Bell_container{
+    position: relative;
+}
+
+.Notif_Count{
+ position: absolute;
+ background-color: rgb(222, 12, 12);
+ color: white;
+ font-weight: 500;
+ font-size: 12.5px;
+ padding:2px 6px;
+ border-radius: 50px;
+ top:-4px;
+ right: -7px;
 }
 
 .Profile_P{
   width:35px;
   height: 35px;
-  margin-right: 10px;
+  
 }
 
 
@@ -146,9 +174,23 @@
     display: flex;
     column-gap: 10px;
     margin: 0px 0px 10px 100px;
-    box-shadow: 1px 1px 2px rgba(223, 217, 217, .8);
+
+    /* box-shadow: 1px 1px 2px rgba(223, 217, 217, .8); */
+                /* OR */
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+    z-index: 19;
+
+    
     /* background-color: brown; */
     align-items: center;
+    margin-top: -5px;
+    position: fixed;
+    top:65px;
+    left: 0;
+    right: 0;
+    background-color: white;
     
 }
 

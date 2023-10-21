@@ -2,14 +2,13 @@
 
 body{
 height: 1000px;
-margin: 0px;
+margin-top: 95px;
  font-family: Roboto, Arial;
 }
 
 
 
 .Div_Master_Shell{
-   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
@@ -23,10 +22,27 @@ margin: 0px;
     min-width: 180px;
 }
 
+.Div_Video_Thumbnail{
+    position: relative;
+}
+
 .Video_Thumbnail{
     width: 100%;
     border-radius: 20px;
 }
+
+.Video_Time {
+    position: absolute;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    padding:3px;
+    font-size: 14px;
+    font-weight: 400;
+    bottom: 14px;
+    right: 14px;
+    border-radius: 5px;
+}
+
 
 .Div_Pfp_and_text_Shell{
     display: grid;
