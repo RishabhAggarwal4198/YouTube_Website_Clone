@@ -3,12 +3,13 @@
 body{
 height: 1000px;
 margin: 0px;
+ font-family: Roboto, Arial;
 }
 
 
 
 .Div_Master_Shell{
-    font-family: Roboto, Arial;
+   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
@@ -32,6 +33,7 @@ margin: 0px;
     grid-template-columns: 50px 1fr;
     column-gap: 15px;
     margin-top: 10px;
+    font-weight: 500;
 }
 
 .Profile_P{
