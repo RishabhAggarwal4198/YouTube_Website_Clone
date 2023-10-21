@@ -1,0 +1,50 @@
+
+
+body{
+height: 1000px;
+margin: 0px;
+}
+
+
+
+.Div_Master_Shell{
+    font-family: Roboto, Arial;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+    margin:20px 50px 50px 100px;
+}
+
+
+.Div_Outer_Shell{
+    display: grid;
+    min-width: 180px;
+}
+
+.Video_Thumbnail{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.Div_Pfp_and_text_Shell{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 15px;
+    margin-top: 10px;
+}
+
+.Profile_P{
+    width: 100%;
+    border-radius: 50px;
+}
+
+p {
+    margin: 5px 5px;
+    line-height: px;
+}
+
+.Txt_2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}

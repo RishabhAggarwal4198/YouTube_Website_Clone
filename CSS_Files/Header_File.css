@@ -1,0 +1,24 @@
+.Header_Div{
+    display: flex;
+    height: 65px;
+    background-color: lightblue;
+    justify-content:space-between;
+}
+
+.Left_Section{
+    width: 200px;
+    background-color: lightcoral;
+}
+
+.Middle_Section{
+   background-color: brown;
+   flex: 1;
+   margin-left: 80px;
+   margin-right: 80px;
+}
+
+.Right_Section{
+    width: 200px;
+    background-color: blueviolet;
+}
+
