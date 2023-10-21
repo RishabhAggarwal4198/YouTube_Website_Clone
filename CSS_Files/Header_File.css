@@ -1,24 +1,130 @@
 .Header_Div{
     display: flex;
     height: 65px;
-    background-color: lightblue;
+    /* background-color: rgb(212, 221, 224); */
     justify-content:space-between;
+    box-shadow: 0px 1px 2px rgba(223, 217, 217, .8);
 }
 
 .Left_Section{
     width: 200px;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+    
 }
 
+.Hamnurger_IMG {
+    height: 30%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.YT_logo_IMG {
+    height: 35%;
+    
+}
+
+.Extra_Div{
+    height: 33px;
+    margin: 0px;
+    padding-left: -1px;
+}
+
+.Text{
+   font-family: Roboto;
+   font-size: 10.5px;
+   margin: 0px;
+}
+
+
+
+
+
+
 .Middle_Section{
-   background-color: brown;
+   background-color: rgb(255, 255, 255);
    flex: 1;
    margin-left: 80px;
    margin-right: 80px;
+   display: flex;
+   align-items: center;
 }
+
+
+.Search_bar{
+    flex:1;
+    height: 34px;
+    border: solid;
+    border-color: rgb(165, 162, 162) ;
+    border-width: 1px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    max-width: 500px;
+}
+
+.Search_bar::placeholder{
+    padding-left: 20px;
+}
+
+
+.Search_button{
+    height: 38px;
+    width: 50px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(165, 162, 162);
+    /* background-color:  rgb(243, 240, 240); */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search_Image{
+    height: 20px;
+    margin-right: 4px;
+}
+
+.Voice_button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 10px;
+    background-color:  rgba(119, 117, 117, 0.139);
+}
+
+.Voice_icon{
+    height: 20px;
+    opacity: .8;
+}
+
 
 .Right_Section{
     width: 200px;
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.Upload_Icon{
+  height: 40%;
+}
+
+
+.Dots_icon{
+    height: 60%;
+}
+
+
+.Bell_Icon{
+  height: 40%;
+}
+
+.Profile_P{
+  width:35px;
+  height: 35px;
+}
