@@ -91,6 +91,7 @@
     justify-content: center;
     align-items: center;
     margin-left: -1px;
+    position: relative;
 }
 
 .Search_Image{
@@ -105,17 +106,38 @@
     border-radius: 50px;
     margin-left: 10px;
     background-color:  rgba(119, 117, 117, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
-}
-
-.Voice_button:hover {
- 
 }
 
 
 .Voice_icon{
     height: 18px;
     opacity: .8;
+}
+
+.Search_button .ToolTip_1,
+.Voice_button .ToolTip_2{
+    position: absolute;
+    bottom:-37px;
+    background-color: rgb(133, 131, 131);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+  
+}
+
+.Search_button:hover .ToolTip_1,
+.Voice_button:hover .ToolTip_2{
+    opacity: 1;
 }
 
 

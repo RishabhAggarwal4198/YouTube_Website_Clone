@@ -27,29 +27,68 @@
 
             .Div_A{
                 display: flex;
-                margin: 40px;
+                margin-top: 40px;
                 color: white;
-                flex-direction:column;
+                flex-direction:row;
                 /* flex-direction:column-reverse; */
                 /* grid-template-columns: 1fr 1fr 1fr 1fr; */
             }
 
             .Div_a{
                 background-color: brown;
-                padding: 20px;
+                /* padding: 20px; */
+                width: 200px;
             }
 
             .Div_b{
                 background-color: rgb(42, 165, 44);
+                flex: 1;
             }
             
             .Div_c{
                 background-color: rgb(216, 103, 213);
-                padding: 20px;
+                /* padding: 20px; */
+                width:100px;
             }
 
             .Div_d{
                 background-color: rgb(216, 212, 103);
+                flex:2;
+            }
+
+
+
+
+
+
+
+            .Div_E{
+                display: grid;
+                margin-top: 40px;
+                color: white;
+                grid-template-columns: 200px 100px 50px 25px ;
+            }
+
+            .Div_e{
+                background-color: brown;
+                /* padding: 20px; */
+               
+            }
+
+            .Div_f{
+                background-color: rgb(42, 165, 44);
+               
+            }
+            
+            .Div_g{
+                background-color: rgb(216, 103, 213);
+                /* padding: 20px; */
+                
+            }
+
+            .Div_h{
+                background-color: rgb(216, 212, 103);
+                
             }
 
         </style>
@@ -75,10 +114,18 @@
 
 
         <div class="Div_A">
-            <div  class="Div_a" > Selector 1 </div>
+            <div  class="Div_a" > Selector 1 & 2 </div>
             <div  class="Div_b"  > Selector 2 </div>
             <div  class="Div_c" > Selector 3 </div>
             <div  class="Div_d" > Selector 4 </div>
+        </div>
+        
+
+        <div class="Div_E">
+            <div  class="Div_e" > Selector 1  </div>
+            <div  class="Div_f"  > Selector 2 </div>
+            <div  class="Div_g" > Selector 3 </div>
+            <div  class="Div_h" > Selector 4 </div>
         </div>
         
     </body>
