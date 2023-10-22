@@ -1,3 +1,36 @@
 .Sidebar{
+    position: fixed;
+    top: 65px;
+    left: 0px;
+    bottom: 0px;
+    width: 80px;
+    padding-top: 20px;
+   
+}
+
+.Sidebar_icon{
+    height: 83px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
 }
+
+.Sidebar_icon:hover{
+    background-color: rgba(119, 117, 117, 0.2);
+}
+
+
+.Sidebar_icon img{
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+
+.TXT {
+    font-size: 10.4px;
+    margin: 0px;
+}
+

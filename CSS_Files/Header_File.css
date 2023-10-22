@@ -105,12 +105,20 @@
     border-radius: 50px;
     margin-left: 10px;
     background-color:  rgba(119, 117, 117, 0.1);
+    
 }
+
+.Voice_button:hover {
+ 
+}
+
 
 .Voice_icon{
     height: 18px;
     opacity: .8;
 }
+
+
 
 
 .Right_Section{
@@ -144,6 +152,8 @@
 
 .Bell_Icon{
   height: 28px;
+  opacity: .7;
+  
 }
 
 .Bell_container{
