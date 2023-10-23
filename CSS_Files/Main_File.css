@@ -81,6 +81,7 @@ p {
     line-height: px;
 }
 
-.Txt_2 {
-    font-weight: 400;
+.Txt_2,
+.Txt_3 {
+   font-style: 300;
 }
