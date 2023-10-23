@@ -135,10 +135,20 @@
   
 }
 
+
+
+
+
 .Search_button:hover .ToolTip_1,
 .Voice_button:hover .ToolTip_2{
     opacity: 1;
 }
+
+
+
+
+
+
 
 
 
@@ -155,8 +165,10 @@
 }
 
 .Upload_Icon{
-  height: 40%;
+  height: 32px;
 }
+
+
 
 /* .Upload_Icon:hover{
    border: none;
@@ -192,6 +204,32 @@
  border-radius: 50px;
  top:-4px;
  right: -7px;
+}
+
+
+
+.Upload_Icon_Container .ToolTip_3{
+    position: absolute;
+    bottom:-30px;
+    background-color: rgb(133, 131, 131);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.Upload_Icon_Container:hover .ToolTip_3{
+    opacity: 1;
+}
+
+
+.Upload_Icon_Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Profile_P{
