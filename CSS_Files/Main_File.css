@@ -10,17 +10,36 @@ margin-top: 140px;
 
 .Div_Master_Shell{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 20px;
     margin:20px 50px 50px 100px;
+}
+
+@media(max-width: 750px) {
+    .Div_Master_Shell{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 751px) and (max-width:999px) {
+    .Div_Master_Shell{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+
+
+@media(min-width: 1000px) {
+    .Div_Master_Shell{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 
 .Div_Outer_Shell{
     display: grid;
     min-width: 180px;
-}
+} 
 
 .Div_Video_Thumbnail{
     position: relative;
