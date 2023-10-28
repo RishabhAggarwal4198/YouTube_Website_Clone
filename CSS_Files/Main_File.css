@@ -59,7 +59,7 @@ margin-top: 140px;
     font-weight: 400;
     bottom: 14px;
     right: 14px;
-    
+
     border-radius: 5px;
 }
 
@@ -84,5 +84,7 @@ p {
 
 .Txt_2,
 .Txt_3 {
+
+    
    font-style: 300;
 }
